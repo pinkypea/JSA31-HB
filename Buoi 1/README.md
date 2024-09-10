@@ -42,10 +42,10 @@ git diff
 git clone <URL>
 
 # Push các thay đổi lên repository từ xa:
-git push origin <tên-branch>
+git push origin main
 
 # Pull các thay đổi từ repository từ xa:
-git pull origin <tên-branch>
+git pull origin main
 ```
 
 ## 5. Quản lý nhánh (Branch):
