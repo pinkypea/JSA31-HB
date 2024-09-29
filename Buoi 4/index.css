@@ -1,0 +1,107 @@
+/* .form {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 15px 15px;
+    margin: 50px 200px;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.mondrian {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+
+    .item1 {
+        grid-row: 1/4;
+        background-color: yellow;
+        border: 2px solid black;
+    }
+    
+    .item2 {
+        grid-row: 1/4;
+        grid-column: 2/4;
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .item3 {
+        grid-row: 1/3;
+        grid-column: 4/7;
+        background-color: white;
+        border: 2px solid black;
+    }
+    
+    .item4 {
+        grid-row: 3/3;
+        grid-column: 4/7;
+        background-color: white;
+        border: 2px solid black;
+    }
+    
+    .item5 {
+        background-color: white;
+        border: 2px solid black;
+    }
+    
+    .item6 {
+        background-color: white;
+        border: 2px solid black;
+    }
+    
+    .item7 {
+        background-color: yellow;
+        border: 2px solid black;
+    }
+
+    .item8 {
+        grid-row: 4/7;
+        grid-column: 1/3;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    .item9 {
+        grid-row: 7/7;
+        grid-column: 1/3;
+        background-color: yellow;
+        border: 2px solid black;
+    }
+
+    .item10 {
+        grid-row: 4/6;
+        grid-column: 3/5;
+        background-color: red;
+        border: 2px solid black;
+    }
+
+    .item11 {
+        grid-row: 6/8;
+        grid-column: 3/5;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    .item12 {
+        grid-row: 4/5;
+        grid-column: 5/8;
+        background-color: white;
+        border: 2px solid black;
+    }
+
+    .item13 {
+        grid-row: 5/7;
+        grid-column: 5/8;
+        background-color: red;
+        border: 2px solid black;
+    }
+
+    .item14 {
+        grid-row: 7/7;
+        grid-column: 5/8;
+        background-color: white;
+        border: 2px solid black;
+    }
+}
