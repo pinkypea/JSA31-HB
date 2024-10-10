@@ -39,7 +39,7 @@ let person = {
 }
 console.log(person.name);
 
-// Lệnh duyện object
+// Lệnh duyệt object
 for (key in person) {
     console.log(key);
 }
