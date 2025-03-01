@@ -298,7 +298,7 @@ const honors = students.map((student) => {
   console.log("Danh sách học sinh theo danh hiệu học lực:", honors);
   
 
-// // 5. Lọc danh sách học sinh có số điểm TBHK >= 7 (chỉ cần hiển thị tên).
+// 5. Lọc danh sách học sinh có số điểm TBHK >= 7 (chỉ cần hiển thị tên).
 const studentsAbove7 = [];
 
 // Lặp qua từng học sinh trong danh sách
