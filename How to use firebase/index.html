@@ -16,6 +16,10 @@
             ký</a></button>
 
     <div id="products-container"></div>
+
+    <input type="text" name="" id="name" placeholder="Create name">
+    <input type="text" name="" id="price" placeholder="Create price">
+    <button onclick="addProduct(document.querySelector('#name').value, document.querySelector('#price').value)">Add product</button>
     
     <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.4.0/firebase-auth-compat.js"></script>
